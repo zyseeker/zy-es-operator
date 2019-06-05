@@ -1,0 +1,11 @@
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: zy-es-operator
+subjects:
+- kind: ServiceAccount
+  name: zy-es-operator
+roleRef:
+  kind: Role
+  name: zy-es-operator
+  apiGroup: rbac.authorization.k8s.io
