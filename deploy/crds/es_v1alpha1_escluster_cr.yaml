@@ -1,0 +1,7 @@
+apiVersion: es.zy.com/v1alpha1
+kind: ESCluster
+metadata:
+  name: example-escluster
+spec:
+  # Add fields here
+  size: 3

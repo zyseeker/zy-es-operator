@@ -16,7 +16,7 @@ spec:
       containers:
         - name: zy-es-operator
           # Replace this with the built image name
-          image: REPLACE_IMAGE
+          image: zyseeker/es-operator:v1
           command:
           - zy-es-operator
           imagePullPolicy: Always
